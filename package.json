@@ -1,6 +1,6 @@
 {
     "name": "babel-plugin-remove-unuse-code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "删除react应用没用代码",
     "keywords": [
         "babel",
