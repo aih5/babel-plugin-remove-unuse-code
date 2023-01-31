@@ -1,0 +1,36 @@
+{
+    "name": "babel-plugin-remove-unuse-code",
+    "version": "0.1.0",
+    "description": "删除react应用没用代码",
+    "keywords": [
+        "babel",
+        "babel-plugin",
+        "babel-plugin-remove-unuse-code"
+    ],
+    "main": "lib/index.js",
+    "types": "index.d.ts",
+    "scripts": {
+        "prepare": "tsc",
+        "release": "release-it",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "homepage": "https://github.com/aih5/babel-plugin-remove-unuse-code/blob/main/README.md",
+    "bugs": "https://github.com/aih5/babel-plugin-remove-unuse-code/issues",
+    "license": "MIT",
+    "author": "aih5",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aih5/babel-plugin-remove-unuse-code.git"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/preset-react": "^7.18.6",
+        "@release-it/conventional-changelog": "^1.1.0",
+        "@types/node": "^18.11.18",
+        "release-it": "^13.4.0",
+        "typescript": "^4.9.4"
+    }
+}
