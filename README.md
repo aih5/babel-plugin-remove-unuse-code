@@ -139,21 +139,21 @@ npm install --save-dev babel-plugin-remove-unuse-code
 {
   "plugins": [
     [
-      path."remove-unuse-code",
+      "remove-unuse-code",
       {
-        isRelease: true,
-        var: {
-          isWeb: true,
-          isAndroid: false,
-          isIOS: false,
+        "isRelease": true,
+        "var": {
+          "isWeb": true,
+          "isAndroid": false,
+          "isIOS": false,
         },
-        imports: {
-          ignoreLibraries: ["react"],
-          remove: true,
+        "imports": {
+          "ignoreLibraries": ["react"],
+          "remove": true,
         },
-        propTypes: {
-          remove: true,
-          onlyProduction: false,
+        "propTypes": {
+          "remove": true,
+          "onlyProduction": false,
         }
       }
     ]
