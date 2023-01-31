@@ -1,6 +1,6 @@
 {
     "name": "babel-plugin-remove-unuse-code",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "删除react应用没用代码",
     "keywords": [
         "babel",
@@ -9,6 +9,10 @@
     ],
     "main": "lib/index.js",
     "types": "index.d.ts",
+    "files": [
+        "lib",
+        "index.d.ts"
+    ],
     "scripts": {
         "prepare": "tsc",
         "release": "release-it",
